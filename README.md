@@ -77,6 +77,24 @@ perl ./BacMet-Scan_v1.1.pl -i ecoli_protein.fa -o ecoli_bacmet -d ./BacMet2_PRE 
 for more example, see test directory.
 ```
 
+# Other tools
+
+## 1. summary and barplot of bcamet out
+
+See bacmet_class_summary.py and ar_class_barplot.R. Example,
+
+```
+# summary
+python3 bacmet_class_summary.py ecoli_bacmet.table > bacmet_class_count.txt
+# barplot
+Rscript ar_class_barplot.R bacmet_class_count.txt bacmet_class_count
+# will make bacmet_class_count.pdf and bacmet_class_count.png of BacMet barplot output (only top 50 to plot)
+```
+
+AR barplot can see test_args_bacmet_count.pdf(png) at ./test directory. Like this:
+
+![AR barplot](./test/test_args_bacmet_count.png)
+
 # License
 
 Copyright (C) 2013-2014 Johan Bengtsson-Palme & Chandan Pal.

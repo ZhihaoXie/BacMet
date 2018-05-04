@@ -1,0 +1,20 @@
+Class	Count
+Acid	1
+Acridine	5
+Alkane	2
+Aromatic hydrocarbons	2
+Arsenic (As)	1
+Biguanides	1
+Bisbenzimide	1
+Copper (Cu), Zinc (Zn)	1
+Cycloalkane	2
+Diamidine	1
+Diamindine	1
+Iron (Fe)	1
+Organo-sulfate	1
+Paraquat	1
+Phenanthridine	2
+Phenolic compounds	3
+Quaternary Ammonium Compounds (QACs)	2
+Triarylmethane	1
+Xanthene	2
