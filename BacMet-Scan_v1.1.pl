@@ -331,7 +331,7 @@ Consult the manual for installation instructions.\n";
 
 ## Check for desired software
 if ($software eq "diamond") {
-    $diamond_binary = '$Bin/diamond';
+    $diamond_binary = "$Bin/diamond";
     if (! -e $diamond_binary) {
         chomp($diamond_binary = `which diamond`);
         if ($diamond_binary eq "") {
