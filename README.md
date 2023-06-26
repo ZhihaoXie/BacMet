@@ -17,6 +17,9 @@ Seqs data of this repo and the BacMet-Scan_v1.1.pl forked from [BacMet](http://b
 # Usage
 
 ```
+# first, build the blast index file (important!)
+makeblastdb -in BacMet2_PRE/BacMet_PRE_database.fasta -input_type fasta -dbtype prot
+
 # for help
 perl ./BacMet-Scan_v1.1.pl -h
 
